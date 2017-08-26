@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">CatchIt Capture Company</string>
+
+
+    <!--Alerts-->
+    <string name="eng_alert">Attention!</string>
+    <string name="eng_dialog_missing_data">Please fill in the required areas.</string>
+    <string name="eng_dialog_missing_city">Please fill in the Company\'s city.</string>
+
+    <!-- Buttons -->
+    <string name="eng_skipbtn">Skip To Form</string>
+    <string name="eng_submitbtn">It\'s Good, SAVE</string>
+
+    <!-- Hints -->
+    <string name ="eng_pros3a">Company\'s City Required At The Minimum.</string>
+    <string name ="eng_company_hint">Company Name*</string>
+    <string name ="eng_city_hint"> City* </string>
+    <string name ="eng_country_hint">Country</string>
+    <string name ="eng_address_hint">Company\'s Address</string>
+    <string name ="eng_address2_hint">Company\'s Address 2 (opt)</string>
+    <string name ="eng_postal_hint">Postal\\ Zip Code</string>
+    <string name ="eng_state_hint">Province\\ State Code</string>
+    <string name="eng_comp_phone_hint">Company Phone Number</string>
+    <string name="eng_web_hint">Company\'s Website</string>
+
+
+
+    <!--Populator Of Countries For Address Spinner -->
+    <string-array name="country_array">
+        <item>Canada</item>
+        <item>USA</item>
+        <item>Japan</item>
+        <item>UK</item>
+
+    </string-array>
+
+    <!--Populator Of Industries For Industry Spinner -->
+    <string-array name="industry_array">
+        <item>Select One</item>
+        <item>Construction</item>
+        <item>Consumer Business</item>
+        <item>Financial Services</item>
+        <item>Life Sciences</item>
+        <item>Manufacturing</item>
+        <item>Not for Profit</item>
+        <item>Professional Services</item>
+        <item>Public Sector</item>
+        <item>Real Estate</item>
+        <item>Retail</item>
+        <item>Technology</item>
+        <item>Other</item>
+
+    </string-array>
+
+
+
+
+</resources>

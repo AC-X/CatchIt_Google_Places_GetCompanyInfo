@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.breezemaxweb.catchitcapturecompany">
+
+    <!-- Required For Places Api-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CaptureProspect"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CaptureProspect2"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CaptureProspect"/>
+        </activity>
+
+        <!-- Required For Places Api ** Enter your API KEY THAT YOU GOT FROM GOOGLE. -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="Use Your Own"/>
+
+
+    </application>
+
+</manifest>
